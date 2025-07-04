@@ -1,0 +1,25 @@
+{
+  "name": "raw_node_js_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "  nodemon index.js",
+    "dev": " nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "monitoring",
+    "uptime",
+    "downtime",
+    "nodejs"
+  ],
+  "author": "MD ASIF CHOWDHURY",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "A RESTFUL API to monitor up or down time of user defined links",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
